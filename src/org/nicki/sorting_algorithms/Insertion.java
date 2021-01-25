@@ -11,8 +11,6 @@ public class Insertion {
             for (int j = i; j > 0 && less(a[j], a[j-1]); j--)
                 exch(a, j, j-1);
         }
-
-        show(a);
     }
 
     private static boolean less(Comparable v, Comparable w){
