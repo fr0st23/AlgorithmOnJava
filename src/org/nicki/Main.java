@@ -1,10 +1,7 @@
 package org.nicki;
 
-import edu.princeton.cs.algs4.Out;
 import edu.princeton.cs.algs4.StdOut;
-import org.nicki.sorting_algorithms.Insertion;
-import org.nicki.sorting_algorithms.Selection;
-import org.nicki.sorting_algorithms.Shell;
+import org.nicki.sorting_algorithms.SortCompare;
 
 import java.util.Scanner;
 
