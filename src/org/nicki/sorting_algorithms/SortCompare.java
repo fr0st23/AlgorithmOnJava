@@ -11,6 +11,8 @@ public class SortCompare {
         if (alg.equals("Вставки")) Insertion.sort(a);
         if (alg.equals("Выбор")) Selection.sort(a);
         if (alg.equals("Шелла")) Shell.sort(a);
+        if (alg.equals("Слияние")) MergeSort.sort(a);
+        if (alg.equals("Быстрая")) QuickSort.sort(a);
 
         return timer.elapsedTime();
     }
